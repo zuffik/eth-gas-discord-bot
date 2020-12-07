@@ -31,7 +31,6 @@ async function main() {
                 throw new Error(`Channel '${channelId}' does not exist.`);
             }
             await channel.send(
-                `*${new Date().toISOString()}* Gwei under threshold of ${threshold}\n` +
                 `**Average:** ${average}\n` +
                 `**Fast:** ${fast}\n` +
                 `**Fastest:** ${fastest}\n` +
