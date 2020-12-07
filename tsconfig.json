@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "types": ["node"],
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}
